@@ -2,7 +2,7 @@
 
 @implementation RENAMETHISContactPhotoProvider
 
-- (DDNotificationContactPhotoPromiseOffer *)contactPhotoPromiseOfferForNotification:(NSObject<DDNotificationDisplayable> *)notification {
+- (DDNotificationContactPhotoPromiseOffer *)contactPhotoPromiseOfferForNotification:(DDUserNotification *)notification {
     UIImage *image = [UIImage imageWithContentsOfFile:@"/var/mobile/Library/Application Support/Dynastic/ShortLook/icon.png"];
     // There are two ways to return an image. Asynchronously (if it might take a while) and synchronously (instant).
     // Read the docs for more information.
