@@ -1,0 +1,9 @@
+Package: IDENTIFIERUNIQUETOYOU.shortlook.plugin.contact-photo.NAMEFORPLUGIN
+Name: Template Contact Photos for ShortLook
+Depends: mobilesubstrate, co.dynastic.ios.tweak.shortlook
+Version: 1.0
+Architecture: iphoneos-arm
+Description: This is an example tweak.
+Maintainer: Your Name
+Author: Your Name
+Section: Tweaks (ShortLook)
